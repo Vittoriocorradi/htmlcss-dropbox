@@ -17,7 +17,8 @@ TYPO
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 h1 {
@@ -25,8 +26,16 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 p {
     line-height: 22px;
+}
+
+.check {
+    color: #0061ff
 }
 
 /*
@@ -57,6 +66,15 @@ ul {
     margin: 0 auto;
 }
 
+main ul {
+    text-indent: -10%;
+    padding-left: 10%;
+}
+
+main ul li {
+    margin-bottom: 25px;
+}
+
 /*
 -------
 BUTTONS
@@ -75,6 +93,7 @@ BUTTONS
 
 .btn-big {
     padding: 15px 20px;
+    display: inline-block;
 }
 
 /*
@@ -137,7 +156,9 @@ main .jumbotron-row .jumbotron-left a {
     display: inline-block;
 }
 
-main .jumbotron-row .jumbotron-left > p, a, div {
+main .jumbotron-row .jumbotron-left p,
+main .jumbotron-row .jumbotron-left a,
+main .jumbotron-row .jumbotron-left div {
     margin-bottom: 35px;
 }
 
@@ -152,22 +173,69 @@ main .jumbotron-row .jumbotron-right img {
 
 /* Plan options */
 
+main .box-plan {
+    margin-top: 160px;
+}
+
+main .box-plan .radio {
+    margin: 70px 0 50px 0;
+}
+
+main .box-plan .radio span {
+    margin-right: 50px;
+}
+
 main .box-plan .plan-options {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -10px;
+    margin: 0 -25px;
 }
 
 main .box-plan .plan-options .option {
     border: 2px solid #d0d0d3;
-    width: calc(100% / 3 - 20px);
-    margin: 0 10px 20px;
+    width: calc(100% / 3 - 50px);
+    margin: 0 25px 50px;
 }
 
-.option:last-child {
+main .plan-options .option:last-child {
     flex-grow: 1;
 }
 
+main .plan-options .option .target {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #d0d0d3;
+}
+
+main .plan-options .option i {
+    margin-right: 5px;
+}
+
+.info {
+    padding: 35px 30px 50px;
+}
+
+main .plan-options .info h4 {
+    margin-bottom: 20px;
+}
+
+main .plan-options .info .time {
+    margin: 18px 0 50px 0;
+}
+
+main .plan-options .info .links > a {
+    margin-bottom: 35px;
+}
+
+main .plan-options .option .info hr {
+    width: 20%;
+    margin: 40px 0 55px 0;
+}
+
+hr + strong {
+    display: block;
+    margin-bottom: 35px;
+}
 /*
 -------
 FOOTER
