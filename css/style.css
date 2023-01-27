@@ -1,0 +1,91 @@
+/*
+-------
+RESET
+-------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+-------
+TYPO
+-------
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+-------
+COMMON
+-------
+*/
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.dist {
+    justify-content: space-between;
+}
+
+/*
+-------
+BUTTONS
+-------
+*/
+
+.primary-btn {
+    color: #fff;
+    background-color: #0061ff;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+/*
+-------
+HEADER
+-------
+*/
+
+header {
+    padding: 18px 20px 25px;
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .nav-center {
+    flex-grow: 1;
+    padding: 0 20px 0 40px;
+}
+
+header nav .nav-center ul {
+    gap: 40px;
+}
+
+
+
+
+/*
+-------
+MAIN
+-------
+*/
+
+/*
+-------
+FOOTER
+-------
+*/
