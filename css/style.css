@@ -52,6 +52,11 @@ ul {
     margin: 0 auto;
 }
 
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*
 -------
 BUTTONS
@@ -104,6 +109,7 @@ MAIN
 -------
 */
 
+/* Jumbotron */
 main .jumbotron {
     margin-top: 72px;
     background-color: #b4d0e7;
@@ -137,13 +143,29 @@ main .jumbotron-row .jumbotron-left > p, a, div {
 
 main .jumbotron-row .jumbotron-left i {
     font-size: 40px;
-    /* position: absolute;
-    bottom: 20px; */
     margin-top: 45px;
 }
 
 main .jumbotron-row .jumbotron-right img {
     width: 100%;
+}
+
+/* Plan options */
+
+main .box-plan .plan-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+main .box-plan .plan-options .option {
+    border: 2px solid #d0d0d3;
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px 20px;
+}
+
+.option:last-child {
+    flex-grow: 1;
 }
 
 /*
