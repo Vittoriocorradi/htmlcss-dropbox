@@ -20,6 +20,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    line-height: 22px;
+}
+
 /*
 -------
 COMMON
@@ -38,6 +47,11 @@ ul {
     justify-content: space-between;
 }
 
+.container-big {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /*
 -------
 BUTTONS
@@ -47,8 +61,15 @@ BUTTONS
 .primary-btn {
     color: #fff;
     background-color: #0061ff;
-    padding: 5px 15px;
     text-decoration: none;
+}
+
+.btn-small {
+    padding: 5px 15px;
+}
+
+.btn-big {
+    padding: 15px 20px;
 }
 
 /*
@@ -64,6 +85,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #fff;
+    z-index: 50;
 }
 
 header .nav-center {
@@ -75,14 +98,53 @@ header nav .nav-center ul {
     gap: 40px;
 }
 
-
-
-
 /*
 -------
 MAIN
 -------
 */
+
+main .jumbotron {
+    margin-top: 72px;
+    background-color: #b4d0e7;
+    padding-top: 100px;
+}
+
+main .jumbotron h1 {
+    margin-bottom: 75px;
+}
+
+main .jumbotron .jumbotron-row {
+    display: flex;
+    position: relative;
+}
+
+main .jumbotron-row .jumbotron-left {
+    width: 33%;
+}
+
+main .jumbotron-row .jumbotron-right {
+    width: calc(100% - 30%);
+}
+
+main .jumbotron-row .jumbotron-left a {
+    display: inline-block;
+}
+
+main .jumbotron-row .jumbotron-left > p, a, div {
+    margin-bottom: 35px;
+}
+
+main .jumbotron-row .jumbotron-left i {
+    font-size: 40px;
+    /* position: absolute;
+    bottom: 20px; */
+    margin-top: 45px;
+}
+
+main .jumbotron-row .jumbotron-right img {
+    width: 100%;
+}
 
 /*
 -------
