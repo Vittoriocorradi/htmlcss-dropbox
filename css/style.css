@@ -103,6 +103,7 @@ BUTTONS
     color: #000;
     border: 1px solid black;
     text-decoration: none;
+    background-color: #fff;
 }
 
 .btn-small {
@@ -386,6 +387,29 @@ main .clients-box .center-column hr {
 
 main .clients-box .center-column div:last-child {
     margin-top: 50px;
+}
+
+/* Prova gratuita */
+
+main .trial {
+    background-color: #b4d0e7;
+    padding: 130px 0;
+}
+
+main .trial .flex {
+    align-items: flex-start;
+    gap: 100px;
+}
+
+main .trial h2 {
+    width: 65%;
+    color: #61082b;
+}
+
+main .trial a {
+    width: 35%;
+    border:  none;
+    text-align: center;
 }
 
 /*
