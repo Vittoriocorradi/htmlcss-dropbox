@@ -17,17 +17,20 @@ TYPO
 */
 
 body {
-    /* font-family: 'Lato', sans-serif; */
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 77px;
+    font-weight: 800;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 28px;;
 }
 
 p {
@@ -179,7 +182,7 @@ main .box-plan {
 }
 
 main .box-plan .radio {
-    margin: 70px 0 50px 0;
+    margin: 60px 0 50px 0;
 }
 
 main .box-plan .radio span {
@@ -213,7 +216,7 @@ main .plan-options .option i {
 }
 
 .info {
-    padding: 35px 30px 50px;
+    padding: 30px 25px 45px;
 }
 
 main .plan-options .info h4 {
@@ -224,8 +227,10 @@ main .plan-options .info .time {
     margin: 18px 0 50px 0;
 }
 
-main .plan-options .info .links > a {
-    margin-bottom: 35px;
+main .plan-options .column .info .links > a {
+    margin: 50px 0 35px;
+    width: 100%;
+    text-align: center;
 }
 
 main .plan-options .option .info hr {
@@ -244,7 +249,8 @@ main .plan-options .option .info-row {
 }
 
 main .plan-options .option .info-row div:last-child {
-    margin-top: 55px;  
+    margin-top: 55px; 
+    flex-basis: 70%; 
 }
 /*
 -------
