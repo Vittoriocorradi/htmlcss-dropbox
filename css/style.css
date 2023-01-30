@@ -358,6 +358,16 @@ main .clients-box .right-column {
 main .clients-box .small-box {
     width: 50%;
     height: 50%;
+    position: relative;
+}
+
+main .clients-box .left-column img,
+main .clients-box .right-column img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 main .clients-box .center-column {
