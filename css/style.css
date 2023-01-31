@@ -105,6 +105,10 @@ hr {
     width: 20%;
 }
 
+i {
+    margin-right: 5px;
+}
+
 /*
 -------
 BUTTONS
@@ -245,10 +249,6 @@ main .plan-options .option .target {
     border-bottom: 1px solid #d0d0d3;
 }
 
-main .plan-options .option i {
-    margin-right: 5px;
-}
-
 .info {
     padding: 30px 25px 45px;
 }
@@ -302,7 +302,7 @@ main #partner .partner-content {
 }
 
 main #partner .partner-img img {
-    width: 100%;
+    max-width: 100%;
 }
 
 main .partner-content h3 {
@@ -321,7 +321,7 @@ main #operations .operations-container {
 }
 
 main #operations .operations-container .operation img {
-    width: 100%;
+    max-width: 100%;
 }
 
 main #operations .operations-container .operation h3 {
@@ -354,21 +354,20 @@ main #clients-logo .small-box {
 
 main #clients-logo .left-column img,
 main #clients-logo .right-column img {
-    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
 
+main #clients-logo img {
+    width: 50%;
+}
+
 main #clients-logo .center-column {
     background-color: #f5f5f5;
     padding: 50px;
     overflow: auto;
-}
-
-main #clients-logo .center-column img {
-    width: 50%;
 }
 
 main #clients-logo .center-column hr {
@@ -388,18 +387,18 @@ main #trial {
 
 main #trial .flex {
     align-items: flex-start;
-    gap: 100px;
 }
 
 main #trial h2 {
-    width: 65%;
+    width: 50%;
     color: #61082b;
 }
 
 main #trial a {
-    width: 35%;
     border:  none;
     text-align: center;
+    position: relative;
+    top: 5px;
 }
 
 /* Domande Frequenti */
@@ -413,7 +412,7 @@ main #questions h2 {
 }
 
 main #questions .question-row {
-    gap: 40px;
+    gap: 35px;
     padding: 40px 40px 40px 0;
     border-bottom: 1px solid #999999;
 }
@@ -456,10 +455,6 @@ footer .lang {
     color: #999999;
 }
 
-footer i {
-    margin-right: 5px;
-}
-
 footer i:last-child {
     position: relative;
     top: 1px;
@@ -468,8 +463,9 @@ footer i:last-child {
 
 /*
 ------
-BOX CLIENTI COLORI
-------*/
+BOX LOGO COLORI
+------
+*/
 
 .designit {
     background-color: #a2d39b;
