@@ -91,7 +91,7 @@ header a {
 }
 
 main ul {
-    text-indent: -10%;
+    text-indent: -9%;
     padding-left: 10%;
 }
 
@@ -446,7 +446,7 @@ footer hr {
     width: 10%;
 }
 
-footer #lang {
+footer .lang {
     color: #999999;
 }
 
