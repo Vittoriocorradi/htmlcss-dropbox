@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 40px;
 }
 
 h3 {
@@ -133,6 +133,10 @@ BUTTONS
     display: inline-block;
 }
 
+main .no-btn:visited {
+    color: #0000ee;
+}
+
 /*
 -------
 DIMENSIONI
@@ -219,7 +223,7 @@ main #payment-plan {
 }
 
 main #payment-plan .radio {
-    margin: 60px 0 50px 0;
+    margin: 70px 0 50px 0;
 }
 
 main #payment-plan .radio span {
@@ -250,11 +254,12 @@ main .plan-options .option i {
 }
 
 main .plan-options .info h4 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 main .plan-options .info .time {
-    margin: 18px 0 50px 0;
+    margin: 15px 0 55px 0;
+    color: #66686b;
 }
 
 main .plan-options .column .info .links > a {
@@ -278,7 +283,7 @@ main .plan-options .option .info-row {
 
 main .plan-options .option .info-row div:last-child {
     margin-top: 55px; 
-    flex-basis: 70%; 
+    flex-basis: 75%; 
 }
 
 /* Partner section */
@@ -292,8 +297,8 @@ main #partner .partner-img {
 }
 
 main #partner .partner-content {
-    width: 45%;
-    padding: 50px 0 0 50px;
+    width: 35%;
+    padding: 60px 0 0 50px;
 }
 
 main #partner .partner-img img {
@@ -311,7 +316,7 @@ main #operations {
 }
 
 main #operations .operations-container {
-    gap: 70px 0;
+    gap: 60px 0;
     margin: 70px 0 200px;
 }
 
@@ -326,7 +331,8 @@ main #operations .operations-container .operation h3 {
 /* Clienti */
 
 main #clients h2 {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
+    max-width: 60%;
 }
 
 /* Box Clienti */
@@ -505,7 +511,7 @@ EFFETTI
 */
 
 header nav .nav-center li:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 .primary-btn:hover {
@@ -526,4 +532,9 @@ main #questions .question-row:hover p {
 
 main #questions .question-row:hover i {
     transform: rotate(180deg);
+}
+
+footer a:hover {
+    color: #90b7ff;
+    text-decoration: underline;
 }
