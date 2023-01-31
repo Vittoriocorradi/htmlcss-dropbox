@@ -508,6 +508,18 @@ header nav .nav-center li:hover {
     border-bottom: 2px solid black;
 }
 
+.primary-btn:hover {
+    background-color: #2d7dff;
+    box-shadow: 0 0 2px 1px #888;
+}
+
+.secondary-btn:hover {
+    background-color: #0061ff;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 5px 2px #999;
+}
+
 main #questions .question-row:hover p {
     display: block;
 }
