@@ -99,6 +99,12 @@ main ul li {
     margin-bottom: 25px;
 }
 
+hr {
+    background-color: #d0d0d3;
+    border: 1px solid #d0d0d3;
+    width: 20%;
+}
+
 /*
 -------
 BUTTONS
@@ -263,7 +269,6 @@ main .plan-options .column .info .links > a {
 }
 
 main .plan-options .option .info hr {
-    width: 20%;
     margin: 40px 0 55px 0;
 }
 
@@ -345,10 +350,8 @@ main .clients-box {
     margin-top: 150px;
 }
 
-main .clients-box .center-column,
-main .clients-box .left-column,
-main .clients-box .right-column {
-    width: calc(100vw / 3);
+main .clients-box > div {
+    width: calc(100% / 3);
     height: calc(100vw / 3);
 }
 
@@ -375,6 +378,7 @@ main .clients-box .right-column img {
 main .clients-box .center-column {
     background-color: #f5f5f5;
     padding: 50px;
+    overflow: auto;
 }
 
 main .clients-box .center-column img {
@@ -382,7 +386,6 @@ main .clients-box .center-column img {
 }
 
 main .clients-box .center-column hr {
-    width: 20%;
     margin: 40px 0;
 }
 
