@@ -86,6 +86,10 @@ header a {
     margin: 0 auto;
 }
 
+.wh-30 {
+    width: 30%;
+}
+
 main ul {
     text-indent: -10%;
     padding-left: 10%;
@@ -171,40 +175,33 @@ MAIN
 main .jumbotron {
     margin-top: 72px;
     background-color: #b4d0e7;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 main .jumbotron .jumbotron-row {
     display: flex;
     position: relative;
     top: 80px;
-}
-
-main .jumbotron-row .jumbotron-left {
-    width: 33%;
+    margin-top: -30px;
 }
 
 main .jumbotron-row .jumbotron-right {
-    width: calc(100% - 30%);
-}
-
-main .jumbotron-row .jumbotron-left a {
-    display: inline-block;
+    width: 70%
 }
 
 main .jumbotron-row .jumbotron-left p,
 main .jumbotron-row .jumbotron-left a,
 main .jumbotron-row .jumbotron-left div {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 main .jumbotron-row .jumbotron-left i {
     font-size: 45px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 main .jumbotron-row .jumbotron-right img {
-    width: 100%;
+    max-width: 100%;
 }
 
 /* Plan options */
