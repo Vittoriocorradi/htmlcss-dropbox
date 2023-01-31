@@ -413,6 +413,32 @@ main .trial a {
     text-align: center;
 }
 
+/* Domande Frequenti */
+
+main #questions {
+    margin: 155px 0 150px 0;
+}
+
+main #questions h2 {
+    margin-bottom: 60px;
+}
+
+main #questions .question-row {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 40px 40px 0;
+    border-bottom: 1px solid #999999;
+}
+
+main #questions .question-row:first-of-type {
+    border-top: 1px solid #999999;
+}
+
+main #questions .question-row p {
+    flex-basis: 90%;
+    display: none;
+}
+
 /*
 -------
 FOOTER
@@ -488,4 +514,18 @@ BOX CLIENTI COLORI
 
 .clear {
     background-color: #ffd830;
+}
+
+/*
+-------
+EFFETTI
+-------
+*/
+
+main #questions .question-row:hover p {
+    display: block;
+}
+
+main #questions .question-row:hover i {
+    transform: rotate(180deg);
 }
